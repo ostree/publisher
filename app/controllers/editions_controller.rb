@@ -353,7 +353,7 @@ private
 
   def validate_redirect(redirect_url)
     regex = /(\/([a-z0-9]+-)*[a-z0-9]+)+/
-    redirect_url =~ regex
+    redirect_url =~ regex == 0
   end
 
   def tagging_update_form
