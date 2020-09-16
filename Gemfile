@@ -68,3 +68,5 @@ group :development, :test do
   gem "rack", "2.2.3"
   gem "rubocop-govuk"
 end
+
+gem "aws-sdk-servicediscovery", "~> 1.29"
